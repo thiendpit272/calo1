@@ -19,10 +19,18 @@ document.querySelector(".form").addEventListener("submit", (e) => {
       4.92 * Number(tuoi.value) +
       5;
     ketqua.innerHTML = `BMR = ${BMR}`;
-    nhom1.innerHTML = `Ít vận động hoặc không vận động - ${(BMR * 1, 2)}`;
-    nhom2.innerHTML = `Vận động nhẹ: 1-2 lần / 1 tuần - ${(BMR * 1, 3)}`;
-    nhom3.innerHTML = `Vận động vừa phải: 3-5 lần / 1 tuần - ${(BMR * 1, 55)}`;
-    nhom4.innerHTML = `Vận động nhiều: 5-6 lần / 1 tuần - ${(BMR * 1, 725)}`;
+    nhom1.innerHTML = `Nhóm 1: Ít vận động hoặc không vận động - ${
+      (BMR * 1, 2)
+    }`;
+    nhom2.innerHTML = `Nhóm 2: Vận động nhẹ: 1-2 lần / 1 tuần - ${
+      (BMR * 1, 3)
+    }`;
+    nhom3.innerHTML = `Nhóm 3: Vận động vừa phải: 3-5 lần / 1 tuần - ${
+      (BMR * 1, 55)
+    }`;
+    nhom4.innerHTML = `Nhóm 4: Vận động nhiều: 5-6 lần / 1 tuần - ${
+      (BMR * 1, 725)
+    }`;
   } else {
     BMR =
       9.99 * Number(cannang.value) +
@@ -31,9 +39,15 @@ document.querySelector(".form").addEventListener("submit", (e) => {
       161;
 
     ketqua.innerHTML = `BMR = ${BMR}`;
-    nhom1.innerHTML = `Ít vận động hoặc không vận động - ${(BMR * 1, 2)}`;
-    nhom2.innerHTML = `Vận động nhẹ: 1-2 lần / 1 tuần - ${(BMR * 1, 3)}`;
-    nhom3.innerHTML = `Vận động vừa phải: 3-5 lần / 1 tuần - ${(BMR * 1, 55)}`;
+    nhom1.innerHTML = `Nhóm 1: Ít vận động hoặc không vận động - ${
+      (BMR * 1, 2)
+    }`;
+    nhom2.innerHTML = `Nhóm 2: Vận động nhẹ: 1-2 lần / 1 tuần - ${
+      (BMR * 1, 3)
+    }`;
+    nhom3.innerHTML = `Nhóm 3: Vận động vừa phải: 3-5 lần / 1 tuần - ${
+      (BMR * 1, 55)
+    }`;
     nhom4.innerHTML = "";
   }
 });
