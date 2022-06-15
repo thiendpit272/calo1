@@ -21,16 +21,16 @@ document.querySelector(".form").addEventListener("submit", (e) => {
     ketqua.innerHTML = `BMR = ${BMR}`;
     nhom1.innerHTML = `Nhóm 1: Ít vận động hoặc không vận động - ${
       (BMR * 1, 2)
-    }`;
+    } calo`;
     nhom2.innerHTML = `Nhóm 2: Vận động nhẹ: 1-2 lần / 1 tuần - ${
       (BMR * 1, 3)
-    }`;
+    } calo`;
     nhom3.innerHTML = `Nhóm 3: Vận động vừa phải: 3-5 lần / 1 tuần - ${
       (BMR * 1, 55)
-    }`;
+    } calo`;
     nhom4.innerHTML = `Nhóm 4: Vận động nhiều: 5-6 lần / 1 tuần - ${
       (BMR * 1, 725)
-    }`;
+    } calo`;
   } else {
     BMR =
       9.99 * Number(cannang.value) +
@@ -41,13 +41,13 @@ document.querySelector(".form").addEventListener("submit", (e) => {
     ketqua.innerHTML = `BMR = ${BMR}`;
     nhom1.innerHTML = `Nhóm 1: Ít vận động hoặc không vận động - ${
       (BMR * 1, 2)
-    }`;
+    } calo`;
     nhom2.innerHTML = `Nhóm 2: Vận động nhẹ: 1-2 lần / 1 tuần - ${
       (BMR * 1, 3)
-    }`;
+    } calo`;
     nhom3.innerHTML = `Nhóm 3: Vận động vừa phải: 3-5 lần / 1 tuần - ${
       (BMR * 1, 55)
-    }`;
+    } calo`;
     nhom4.innerHTML = "";
   }
 });
